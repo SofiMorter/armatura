@@ -1,0 +1,23 @@
+button {
+    border-radius: 20px;
+    background-color: rgb(254, 202, 87);
+    width: 230px;
+    height: 70px;
+    border: none;
+}
+
+.catalog-btn {
+    font-size: 24px;
+    font-family: "AvertaCY", sans-serif;
+    color: rgb(34, 47, 62);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.paginate-label {
+    border-radius: 17px;
+    background-color: rgb(46, 134, 222);
+    width: 91px;
+    height: 35px;
+}
