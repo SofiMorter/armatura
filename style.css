@@ -21,3 +21,30 @@ button {
     width: 91px;
     height: 35px;
 }
+
+.img-absolute {
+    position: relative;
+}
+
+.blue-bg {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 50%;
+    background-color: #54a0ff;
+    z-index: -5;
+}
+
+.img-absolute img {
+    object-fit: cover;
+    max-width: 100%;
+    margin-left: -20%;
+}
+
+// Средние девайсы («таблетки», >= 768px)
+@media (max-width: 768px) {
+    .blue-bg {
+        display: none;
+    }
+}
